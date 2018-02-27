@@ -1,0 +1,310 @@
+/*********** HEADER ************/
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 212px;
+    margin-left: 43px;
+}
+
+#shoppingcart {
+    width: 38px;
+    margin-top: 70px;
+    margin-right: 5px;
+    float: right;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+nav a {
+    /***** learned about removing text-decoration on StackExchange *****/
+    text-decoration: none;
+    color: #000000;
+    font-family: "Avenir-Medium", sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    margin-top: 100px;
+}
+
+#orderonlinetab {
+    margin-left: 0%;
+}
+
+#cateringtab {
+    margin-left: 20%;
+}
+
+#aboutustab {
+    margin-left: 20%;
+}
+
+#contactustab {
+    margin-left: 20%;
+}
+
+/*********** HOME PAGE ************/
+
+.homescreenimages {
+    margin-left: 8px;
+    margin-bottom: 30px;
+    /***** learned about float on W3C School *****/
+    float: left;
+    width: 612px;
+}
+
+.emailandsocialmedia {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.emailsocialmediatext {
+    font-family: Avenir-Medium;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: -0.65px;
+    text-align: center;
+    /***** learned about display on W3C School *****/
+    display: inline;
+}
+
+#emailinput {
+    height: 16px;
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 8px;
+    display: inline;
+}
+
+#subscribebutton {
+    /***** learned about box shadow on W3C School *****/
+    background: rgba(0,0,0,0.09);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+    padding: 5px;
+    font-family: Avenir-Roman;
+    font-size: 14px;
+    margin-top: 15px;
+    }
+
+#socialmediatext {
+    margin-right: 7px;
+}
+
+#socialmediaicons {
+    display: inline;
+}
+
+/*********** ABOUT US PAGE ************/
+
+#storeimage {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    float: left;
+    opacity: 0.95;
+    width: 590px;
+}
+
+.bodytext {
+    float: right;
+    margin-top: 5px;
+    margin-right: 7px;
+    font-family: Avenir-Roman;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: -0.8px;
+    width: 50%;
+}
+
+/*********** PRODUCT BROWSING PAGE ************/
+
+td a{
+    text-decoration: none;
+}
+
+#browsingtext {
+    text-align: center;
+    font-family: Avenir-roman;
+    font-size: 18px;
+    color: #763062;
+    letter-spacing: -0.8px;
+    margin-top: -5px;
+}
+
+#browsingtable {
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 30px;
+    color: #763062;
+    letter-spacing: -1px;
+    /***** learned about border collapse on W3C School *****/
+    border-collapse: collapse;
+    width: 99%;
+}
+
+td, th {
+    border: 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.browsingimage {
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    float: left;
+    width: 270px;
+}
+
+.flavortext {
+    font-family: Avenir-Medium;
+    font-size: 25px;
+    color: #763062;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#glutenfree {
+    font-family: Avenir-Medium;
+    font-size: 20px;
+    color: #763062;
+    letter-spacing: -1px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+/*********** PRODUCT DETAILS PAGE ************/
+
+#rectangle {
+    height: 365px;
+    width: 1188px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+#detailstitle {
+    font-family: Avenir-Heavy;
+    font-size: 38px;
+    letter-spacing: -1px;
+    color: #763062;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#detailsimage {
+    float: left;
+    width: 385px;
+    margin-left: 10px;
+}
+
+#detailstext {
+    font-family: Avenir-Roman;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: -0.8px;
+    float: left;
+    width: 385px;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+#selections {
+    margin-left: 15px;
+    margin-top: -20px;
+    float: left;
+}
+
+.selectionstitle {
+    font-family: Avenir-Heavy;
+    font-size: 22px;
+    color: #763062;
+    letter-spacing: -0.8px;
+}
+
+.selectionbutton {
+    height: 50px;
+    width: 88px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0;
+    border-radius: 6px;
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: -1px;
+    text-align: center;
+    float: left;
+    margin-top: -15px;
+    margin-right: 6px;
+    margin-bottom: 15px;
+}
+
+#pricebox {
+    height: 35px;
+    width: 88px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 5px;
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: -1px;
+    text-align: left;
+    float: left;
+    margin-top: -15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    line-height: 35px;
+}
+
+.selectionnavbutton {
+    height: 35px;
+    background: rgba(104,42,86,0.80);
+    border-radius: 8px;
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 6px;
+}
+
+#backbutton {
+    width: 88px;
+    margin-top: 12px;
+}
+
+#addtocartbutton {
+    width: 145px;
+    margin-top: -12px;
+}
+
+/*********** FOOTER ************/
+
+#footer {
+    clear: left;
+    text-align: center;
+    font-family: Avenir-Light;
+    font-size: 14px;
+    color: #585858;
+}

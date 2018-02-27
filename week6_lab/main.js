@@ -49,7 +49,6 @@ $(document).on("click", "#add-item", function() {
 });
 
 $(document).on("click", ".complete-item", function() {
-
     if ($(this).is(':checked')) {
         $(this).parent().css('text-decoration', 'line-through');
     } else {
