@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bun Bun Bake Shop</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css" rel="stylesheet">
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Assets/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- logo -->
+        <a href="index.html"><img id="logo" src="Assets/Images/logo.png" alt="Bun Bun Logo"></a>
+        <!-- shopping cart -->
+        <div id="shoppingcart">
+            <a href="shoppingcart.html"><img id="carticon" src="Assets/Images/shoppingcart.png" alt="Shopping Cart"></a>
+            <p id="numberofitemsincart"></p>
+        </div>
+        <!--navagation bar-->
+        <hr class="navbarline">
+        <nav>
+            <a id="orderonlinetab" href="productbrowsing.html">Order Online</a>
+            <a id="cateringtab">Catering</a>
+            <a id="aboutustab" href="aboutus.html">About Us</a>
+            <a id="contactustab">Contact Us</a>
+        </nav>
+        <hr class="navbarline">
+    </header>
+
+    <!-- cart  -->
+    <div id="cartrectangle">
+        <!-- headings for cart -->
+        <div>
+            <h1 id="carttitle">Your Cart</h1>
+            <p class="columns">Flavor</p>
+            <p class="columns">Glazing</p>
+            <p class="columns">Amount</p>
+            <p class="columns">Remove</p>
+            <hr id="cartheaderline">
+        </div>
+        <!-- items to be filled in -->
+        <ol id="cartinfo"></ol>
+        <!-- enter spaces so the box has some padding -->
+        <br><br><br>
+    </div>
+
+    <!-- footer -->
+    <div>
+        <!-- &nbsp; for spaces -->
+        <p id="footer">Legal&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Private Policy</p>
+    </div>
+
+</body>
+
+</html>

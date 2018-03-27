@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bun Bun Bake Shop</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css" rel="stylesheet">
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Assets/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- logo -->
+        <a href="index.html"><img id="logo" src="Assets/Images/logo.png" alt="Bun Bun Logo"></a>
+        <!-- shopping cart (image: noun project) -->
+        <div id="shoppingcart">
+            <a href="shoppingcart.html"><img id="carticon" src="Assets/Images/shoppingcart.png" alt="Shopping Cart"></a>
+            <p id="numberofitemsincart"></p>
+        </div>
+        <!--navagation bar-->
+        <hr class="navbarline">
+        <nav>
+            <a id="orderonlinetab" href="productbrowsing.html">Order Online</a>
+            <a id="cateringtab">Catering</a>
+            <a id="aboutustab" href="aboutus.html">About Us</a>
+            <a id="contactustab">Contact Us</a>
+        </nav>
+        <hr class="navbarline">
+    </header>
+
+    <div>
+        <!-- learn more about us (image: http://www.thecrepesofwrath.com/2011/06/20/cinnabon-cinnamon-buns/)-->
+        <div>
+            <a href="aboutus.html"><img class="homescreenimages" src="Assets/Images/learnmore.png" alt="Learn More About Us"></a>
+            <p id="pittsburghtext" class="imagetext">Pittsburgh's best cinnamon rolls</p>
+            <button class="imagebutton">Learn More About Us</button>
+        </div>
+        <!-- order online now (image: https://www.foodnetwork.com/recipes/alton-brown/overnight-cinnamon-rolls-recipe-2014250) -->
+        <div>
+            <a href="productbrowsing.html"><img class="homescreenimages" src="Assets/Images/ordernow.png" alt="Order Online Now"></a>
+            <p id="deliverytext" class="imagetext">Have cinnamon rolls delivered to you</p>
+            <button class="imagebutton">Order Online Now</button>
+        </div>
+    </div>
+
+    <!-- email and social media following -->
+    <div class=emailandsocialmedia>
+        <!-- collecting email subscribers -->
+        <div>
+            <p class="emailsocialmediatext">Join our mailing list:</p>
+            <input id="emailinput" type="text">
+            <button id="subscribebutton">Subscribe</button>
+        </div>
+        <!-- collecting social media followers -->
+        <div id="socialmedia">
+            <p class="emailsocialmediatext" id="socialmediatext">Follow us on social media:</p>
+            <!-- social media site icons -->
+            <div id="socialmediaicons">
+                <!-- image: http://pngimg.com/download/19772 -->
+                <a href="https://www.facebook.com"><img src="Assets/Images/facebook.png" alt="Facebook"></a>
+                <!-- image: http://www.stickpng.com/img/icons-logos-emojis/tech-companies/instagram-logo -->
+                <a href="https://www.instagram.com"><img src="Assets/Images/instagram.png" alt="Instagram"></a>
+                <!-- image: http://www.stickpng.com/img/icons-logos-emojis/tech-companies/twitter-logo -->
+                <a href="https://www.twitter.com"><img src="Assets/Images/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div>
+        <!-- &nbsp; for spaces -->
+        <p id="footer">Legal&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Private Policy</p>
+    </div>
+
+</body>
+
+</html>

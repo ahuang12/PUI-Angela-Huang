@@ -1,0 +1,401 @@
+/*********** HEADER ************/
+
+/***** center logo *****/
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 212px;
+    margin-left: 43px;
+    float: center;
+}
+
+/***** shopping cart *****/
+
+#shoppingcart {
+    margin-top: 50px;
+    margin-right: 5px;
+    float: right;
+}
+
+#carticon {
+    width: 35px;
+    float: left;
+}
+
+#numberofitemsincart {
+    font-family: "Avenir-Medium", sans-serif;
+    color: #CC2857;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+/***** navigation bar *****/
+
+.navbarline {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+nav a {
+    /***** learned about removing text-decoration from StackExchange *****/
+    text-decoration: none;
+    color: #000000;
+    font-family: "Avenir-Medium", sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.8px;
+    margin-top: 100px;
+}
+
+#orderonlinetab {
+    margin-left: 0%;
+}
+
+#cateringtab {
+    margin-left: 20%;
+}
+
+#aboutustab {
+    margin-left: 20%;
+}
+
+#contactustab {
+    margin-left: 20%;
+}
+
+/*********** HOME PAGE ************/
+
+.homescreenimages {
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    /***** learned about float on W3C School *****/
+    float: left;
+    width: 612px;
+    position: relative;
+}
+
+.imagetext {
+    height: 40px;
+    width: 612px;
+    opacity: 0.8;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: Avenir-MediumOblique;
+    font-size: 35px;
+    color: #000000;
+    letter-spacing: -1px;
+    text-align: center;
+    position: absolute;
+}
+
+#pittsburghtext {
+    top: 40%;
+    left: 50%
+    transform: translate(-50%, 50%);
+}
+
+#deliverytext {
+    top: 40%;
+    left: 50%
+    transform: translate(-50%, 50%);
+}
+
+.imagebutton {
+    opacity: 0.9;
+    background: #522B47;
+    /***** learned about box shadow on W3C School *****/
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+    font-family: Avenir-Book;
+    font-size: 27px;
+    color: #FFFFFF;
+    letter-spacing: -0.5px;
+    position: absolute;
+}
+
+/***** collecting email subscribers and social media followers section *****/
+
+.emailandsocialmedia {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.emailsocialmediatext {
+    font-family: Avenir-Medium;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: -0.65px;
+    text-align: center;
+    /***** learned about display on W3C School *****/
+    display: inline;
+}
+
+#emailinput {
+    height: 16px;
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 8px;
+    display: inline;
+}
+
+#subscribebutton {
+    background: rgba(0,0,0,0.09);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+    padding: 5px;
+    font-family: Avenir-Roman;
+    font-size: 14px;
+    margin-top: 15px;
+    }
+
+#socialmediatext {
+    margin-right: 7px;
+}
+
+#socialmediaicons {
+    display: inline;
+}
+
+/*********** ABOUT US PAGE ************/
+
+#storeimage {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    float: left;
+    opacity: 0.95;
+    width: 48%;
+}
+
+.bodytext {
+    float: right;
+    margin-top: 20px;
+    margin-right: 7px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: -0.8px;
+    width: 48%;
+}
+
+/*********** PRODUCT BROWSING PAGE ************/
+
+/***** table grid *****/
+
+td a{
+    text-decoration: none;
+}
+
+#browsingtable {
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 30px;
+    color: #763062;
+    letter-spacing: -1px;
+    /***** learned about border collapse on W3C School *****/
+    border-collapse: collapse;
+    width: 99%;
+}
+
+td, th {
+    border: 1.5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+/***** top instructions text *****/
+
+#browsingtext {
+    text-align: center;
+    font-family: Avenir-roman;
+    font-size: 18px;
+    color: #763062;
+    letter-spacing: -0.8px;
+    margin-top: 15px;
+}
+
+/***** images and flavor labels in each grid box *****/
+
+.browsingimage {
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    float: left;
+    width: 270px;
+}
+
+.flavortext {
+    font-family: Avenir-Medium;
+    font-size: 25px;
+    color: #763062;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#glutenfree {
+    font-family: Avenir-Medium;
+    font-size: 20px;
+    color: #763062;
+    letter-spacing: -1px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+/*********** PRODUCT DETAILS PAGE ************/
+
+/***** rectangle outline and placement *****/
+
+#detailsrectangle {
+    height: 368px;
+    width: 1188px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+/***** details information *****/
+
+#detailstitle {
+    font-family: Avenir-Heavy;
+    font-size: 38px;
+    letter-spacing: -1px;
+    color: #763062;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#detailsimage {
+    float: left;
+    width: 385px;
+    margin-left: 10px;
+}
+
+#detailstext {
+    font-family: Avenir-Roman;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: -0.8px;
+    float: left;
+    width: 385px;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+/***** purchase selections *****/
+
+#selections {
+    margin-left: 15px;
+    margin-top: -20px;
+    float: left;
+}
+
+.selectionstitle {
+    font-family: Avenir-Heavy;
+    font-size: 22px;
+    color: #763062;
+    letter-spacing: -0.8px;
+    margin-bottom: 0px;
+}
+
+.selectionbutton {
+    font-family: Avenir-Medium;
+    font-size: 35px;
+    color: #000000;
+    margin-top: -15px;
+}
+
+.selectionnavbutton {
+    height: 35px;
+    background: rgba(104,42,86,0.80);
+    border-radius: 8px;
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 6px;
+}
+
+#backbutton {
+    width: 88px;
+    margin-top: 12px;
+}
+
+#addtocartbutton {
+    width: 145px;
+    margin-top: 10px;
+    float: right;
+}
+
+/*********** SHOPPING CART ************/
+
+/***** rectangle outline and placement *****/
+
+#cartrectangle {
+    width: 1188px;
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+/***** cart information *****/
+
+#carttitle {
+    font-family: Avenir-Heavy;
+    font-size: 28px;
+    color: #CC2857;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.columns {
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: -0.7px;
+    border-style: none;
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cartheaderline {
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 0.5px
+}
+
+/*********** FOOTER ************/
+
+#footer {
+    clear: left;
+    text-align: center;
+    font-family: Avenir-Light;
+    font-size: 14px;
+    color: #585858;
+    margin-top: 50px;
+}
