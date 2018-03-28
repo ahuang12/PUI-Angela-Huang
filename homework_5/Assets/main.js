@@ -1,4 +1,4 @@
-// CHANGING IMAGES BASED ON GLAZING SELECTION ON PRODUCT DETAIL PAGE //
+// CHANGE IMAGES BASED ON GLAZING SELECTION ON PRODUCT DETAIL PAGE //
 
 function changetonone() {
     document.getElementById("detailsimage").src="Assets/Images/none.png";
@@ -16,13 +16,20 @@ function changetochocolate() {
     document.getElementById("detailsimage").src="Assets/Images/chocolate.png";
 }
 
-// SHOPPING CART //
-
-// adding items to cart //
+// ADD ITEMS TO CART //
 
 var cart = [];
 
 $(document).ready(function(){
+    // checks whether the cart is currently empty or already has items in it //
+    var temporary=JSON.parse(localStorage.getItem("cart"));
+    if (temporary == null) {
+        cart = [];
+    }
+    else {
+        cart = temporary;
+    }
+    // assign selected glazing and amount to stored variables //
     $("#addtocartbutton").click(function(){
         var flavor = "Original";
         var glazing = "";
@@ -46,10 +53,11 @@ $(document).ready(function(){
     })
 })
 
-// storing items in cart //
+// STORING ITEMS TO CART //
 
 function listCart(){
     $(function() {
+        // checks whether the cart is null //
         if (localStorage.cart != null);
             {
                 cart = JSON.parse(localStorage.cart);
@@ -59,6 +67,7 @@ function listCart(){
 
 function addtoCart(flavor, glazing, amount){
     listCart();
+    // assign parameters in the object //
     var item = {
         Flavor: flavor,
         Glazing: glazing,
@@ -66,50 +75,10 @@ function addtoCart(flavor, glazing, amount){
     };
     cart.push(item);
     saveToCart();
-    displayCart();
 }
 
+// save selections to cart //
 function saveToCart(){
     localStorage.setItem("cart", JSON.stringify(cart));
+    console.log(localStorage.getItem("cart"));
 }
-
-// displaying stored items (array of objects) in the shopping cart page //
-
-function displayCart(){
-    for (var i = 0; i<cart.length; i++) {
-        var item = cart[i];
-        console.log(item);
-        var newelement = document.createElement("LI");
-        var textnode = document.createTextNode(item);
-        newelement.appendChild(textnode);
-        document.ol.appendChild(newelement);
-    }
-}
-
-// remove items from cart //
-
-function removeItemFromCart(flavor, glazing) {
-    for (var i in cart) {
-        if (cart[i].flavor === flavor) {
-            if (cart[i].glazing === glazing) {
-                cart.splice(i, 1);
-                break;
-            }
-        }
-    }
-}
-
-// display how many items are in the cart //
-
-function countCart() {
-    var totalcount = 0;
-    for (var i in cart) {
-        totalcount += cart[i].amount
-    }
-    return totalcount;
-    $("#numberofitemsincart").append(totalcount)
-}
-
-
-
-

@@ -10,6 +10,7 @@
     <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Assets/main.js" type="text/javascript"></script>
+    <script src="Assets/cart.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -20,7 +21,6 @@
         <!-- shopping cart -->
         <div id="shoppingcart">
             <a href="shoppingcart.html"><img id="carticon" src="Assets/Images/shoppingcart.png" alt="Shopping Cart"></a>
-            <p id="numberofitemsincart"></p>
         </div>
         <!--navagation bar-->
         <hr class="navbarline">
@@ -45,7 +45,13 @@
             <hr id="cartheaderline">
         </div>
         <!-- items to be filled in -->
-        <ol id="cartinfo"></ol>
+        <div>
+            <!-- list of items in shopping cart -->
+            <ol id="cartinfo"></ol>
+            <!-- displays how many items are in the shopping cart -->
+            <p class="cartnumber">Number of items in cart:</p>
+            <p id="numberofitemsincart" class="cartnumber"></p>
+        </div>
         <!-- enter spaces so the box has some padding -->
         <br><br><br>
     </div>
