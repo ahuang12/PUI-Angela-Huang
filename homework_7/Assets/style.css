@@ -1,0 +1,130 @@
+/*********** HEADER ************/
+
+header {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#name {
+    font-family: Avenir-Heavy;
+    font-size: 45px;
+    color: #03A0BF;
+    letter-spacing: 0.35px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: BanglaSangamMN;
+    font-size: 16px;
+    color: #000000;
+}
+
+#projectstab {
+    margin-left: 0%;
+    background-color: none;
+    opacity: 1;
+}
+
+#abouttab {
+    margin-left: 5%;
+}
+
+#resumetab {
+    margin-left: 5%;
+}
+
+/*********** ALL TEXT STYLES ************/
+
+.titletext {
+    font-family: GillSans;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.headingtext {
+    font-family: GillSans-LightItalic;
+    font-size: 30px;
+    color: #03A0BF;
+    margin-bottom: 20px;
+}
+
+.largertext {
+    font-family: BanglaSangamMN;
+    font-size: 22px;
+    color: #000000;
+}
+
+.descriptiontext {
+    font-family: BanglaSangamMN;
+    font-size: 17px;
+    color: #000000;
+}
+
+.bodytext {
+    font-family: BanglaSangamMN;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.quotetext {
+    font-family: GillSans-LightItalic;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin-left: 60px;
+}
+
+.linktext {
+    font-family: BanglaSangamMN;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+/*********** PROJECTS PAGE ************/
+
+/*** original settings for thumbnail before mouse over function ***/
+.thumbnails {
+    opacity: 1;
+    scale: 1;
+}
+
+/*********** ABOUT ME PAGE ***********
+
+/*** google map size ***/
+#googlemap {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/*********** INDIVIDUAL PROJECT PAGES ************/
+
+/*** seperator line ***/
+.line {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/*** add some spacing under images ***/
+.exampleimages {
+    margin-bottom: 20px;
+}
+
+/*** back to projects link ***/
+#backtoprojects{
+    text-decoration: none;
+    font-family: GillSans-Italic;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 50px;
+}

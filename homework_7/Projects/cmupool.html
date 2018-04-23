@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angela</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="../Assets/style.css">
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- title and nav bar -->
+    <header>
+        <h1 id="name">ANGELA HUANG</h1>
+        <!-- nav bar -->
+        <nav>
+            <a id="projectstab" href="../projects.html">Projects</a>
+            <a id="abouttab" href="../about.html">About</a>
+            <a id="resumetab" href="../Assets/resume.pdf">Resume</a>
+        </nav>
+    </header>
+
+    <!-- project header -->
+    <div class="container">
+        <h1 class="titletext">CMUPool</h1>
+        <div class="container">
+            <div class="col-sm-4">
+                <p class="bodytext">Skills: UX Research (Stakeholder Mapping, Contextual Inquiry)</p>
+                <p class="bodytext">05-410: User-Centered Research and Evaluation</p>
+                <p class="bodytext">January 2018 - March 2018</p>
+            </div>
+            <p class="col-sm-8 descriptiontext">With my team, I conducted intensive design research using the contextual inquiry process to understand the needs and frustrations of Carnegie Mellon students in regards to their commuting experiences in Pittsburgh. Our final design solution, CMUPool, is to create a partnership between Carnegie Mellon University and Uber to offer shared Uber rides for students, allowing for more time and cost efficient commutes.</p>
+        </div>
+    </div>
+
+    <!-- division line -->
+    <hr class="line">
+
+    <!-- project goal -->
+    <div class="container">
+        <h1 class="headingtext">Project Goal</h1>
+        <p class="bodytext">We were presented with the problem of how to improve the mobility of the CMU community and the task to develop strategies to mitigate the impact of anticipated service cuts of the public Pittsburgh bus system. Our main focus was the graduate students, as they are required to live off campus, and many live in further areas in Pittsburgh. We worked with the task force partners involved in this transportation initiative and other users and stakeholders to understand the problem space. Interpreting the data was just as, if not more, important than collecting them. We used various research methods, including stakeholder mapping, interviewing, sequence and day-in-the-life modeling, affinity diagramming, and visioning to design an effective and feasible solution to provide CMU students and faculty with better commuting experiences in Pittsburgh.</p>
+    </div>
+
+    <!-- division line -->
+    <hr class="line">
+
+    <!-- research -->
+    <div class="container">
+        <h1 class="headingtext">Research</h1>
+        <!-- stakeholder mapping -->
+        <div>
+            <p class="largertext">Stakeholder Mapping</p>
+            <p class="bodytext">We started off by creating a stakeholder map to visualize the breadth of key people in this problem space and begin to understand their mindsets. In order to create a guide for the next phases of our research process, we categorized the different groups of stakeholders into higher level groupings and connected them with how they impact or relate to each other.</p>
+            <img class="col-sm-12 exampleimages" src="../Assets/Images/CMUPool/StakeholderMap.png" alt="StakeholderMap">
+        </div>
+        <!-- interviewing and interpretating -->
+        <div>
+            <p class="largertext">Interviewing and Interpretating</p>
+            <p class="bodytext">After writing our interview protocol and reaching out to stakeholders and users in the transportation problem space, we conducted six interviews. Following these interviews, we coded each of them and created sequence models and day-in-the-life models for them. The sequence models show the activities that each participant carried out for specific triggers related to his/ her commute, with intents and strategies as well as breakdowns. The day-in-the-life models walk you through a typical day of each participant, emphasizing the location, time, and devices used. A couple of examples are shown below.</p>
+            <!-- carousel (learned from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) -->
+            <div class="container exampleimages">
+                <div id="firstcarousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="false">
+                    <!-- indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#firstcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#firstcarousel" data-slide-to="1"></li>
+                        <li data-target="#firstcarousel" data-slide-to="2"></li>
+                        <li data-target="#firstcarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../Assets/Images/CMUPool/G1-S.png" alt="G1-S">
+                        </div>
+                        <div class="item">
+                            <img src="../Assets/Images/CMUPool/G1-D.png" alt="G1-D">
+                        </div>
+                        <div class="item">
+                            <img src="../Assets/Images/CMUPool/G2-S.png" alt="G2-S">
+                        </div>
+                        <div class="item">
+                            <img src="../Assets/Images/CMUPool/G2-D.png" alt="G2-D">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#firstcarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#firstcarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- affinity diagraming -->
+        <div>
+            <p class="largertext">Affinity Diagramming</p>
+            <p class="bodytext">To create the big picture and uncover themes and issues across all users, we summarized our interviews in a way that told a story with our field data. We clustered each interview note into specific groupings in the language of the user (blue post-its), specific issues (pink post-its), and whole areas of concerns (green post-its).</p>
+            <img class="col-sm-12 exampleimages" src="../Assets/Images/CMUPool/Affinity.png" alt="AffinityDiagram">
+        </div>
+        <!-- model consolidation -->
+        <div>
+            <p class="largertext">Model Consolidation</p>
+            <p class="bodytext">To capture similarities across all our participants, we consolidated all the individual sequence models into one and did the same for the day-in-the-life models as well. We aimed to show common patterns among all the users without losing key variations across them.</p>
+            <div>
+                <img class="col-sm-8 " src="../Assets/Images/CMUPool/SequenceModel.png" alt="SequenceModel">
+                <!-- another div for spacing/ sizing the image above-->
+                <div class="col-sm-4"></div>
+            </div>
+            <img class="col-sm-12 exampleimages" src="../Assets/Images/CMUPool/DayInTheLifeModel.png" alt="DayInTheLifeModel">
+        </div>
+        <!-- visioning and storyboarding -->
+        <div class="container">
+            <p class="col-sm-12 largertext">Visioning and Storyboarding</p>
+            <p class="col-sm-12 bodytext">To begin forming our design solution, we reviewed all the research findings and models by "walking the wall". We looked over the affinity diagram and consolidated models and listed design ideas, breakdowns, and questions found in them. In addition, we conducted a second "walk the wall" session using the "Rose, Thorn, Bud" method in which we noted any positive features (rose), breakpoints (thorn), or aspects that have potential (bud). We then moved on to visioning sessions, in which we generated potential solutions for various use cases based on the lists we generated earlier. We created six visions, each focusing on a different potential user need or situation. Lastly, we selected three ideas and created a storyboard for each solution. We also speed-dated all three storyboards with some of our interviewers and other potential users to gather feedback.</p>
+            <!-- carousel (learned from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) -->
+            <div class="col-sm-8">
+                <div id="secondcarousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="false">
+                    <!-- indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#secondcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#secondcarousel" data-slide-to="1"></li>
+                        <li data-target="#secondcarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../Assets/Images/CMUPool/Storyboard1.jpg" alt="Storyboard">
+                        </div>
+                        <div class="item">
+                            <img src="../Assets/Images/CMUPool/Storyboard2.jpg" alt="Storyboard">
+                        </div>
+                        <div class="item">
+                            <img src="../Assets/Images/CMUPool/Storyboard3.jpg" alt="Storyboard">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control carouselbackground" href="#secondcarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left carouselarrow"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control carouselbackground" href="#secondcarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!-- another div for spacing/ sizing the carousel above-->
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+
+    <!-- division line -->
+    <hr class="line">
+
+    <!-- proposed solution -->
+    <div class="container">
+        <h1 class="headingtext">Proposed Solution</h1>
+        <p class="bodytext">We decided that our idea of establishing a shared Uber or Lyft riding system for CMU students was the most effective and feasible solution based on the feedback we received from speed-dating the three storyboards.</p>
+        <img class="col-sm-12" src="../Assets/Images/CMUPool/ConceptPoster.png" alt="ConceptPoster">
+    </div>
+
+    <!-- division line -->
+    <hr class="line">
+
+    <!-- final thoughts -->
+    <div class="container">
+        <h1 class="headingtext">Final Thoughts</h1>
+        <p class="bodytext">Overall, this project exposed me to conducting thorough design research using the contextual inquiry process, sparking my interest in design research and research analysis. Although each step of the process was time-consuming and at times frustrating when we got stuck, I firmly believe that every part was crucial and built on top of each other leading to the final solution. My biggest takeaway from this project would be how to balance precision and flexibility when working with the data at hand to fit the contextual inquiry guidelines and rules. As the project manager for my team, I also strengthened my leadership, teamwork, and communication skills.</p>
+    </div>
+
+    <!-- back to project link -->
+    <div>
+        <a id="backtoprojects" href="../projects.html">Back to Projects</a>
+    </div>
+
+</body>
+
+</html>

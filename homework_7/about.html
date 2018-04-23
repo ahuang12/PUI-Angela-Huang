@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angela</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <!-- javascript -->
+    <script src="Assets/Javascript/map.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- title and nav bar -->
+    <header>
+        <h1 id="name">ANGELA HUANG</h1>
+        <!-- nav bar -->
+        <nav>
+            <a id="projectstab" href="projects.html">Projects</a>
+            <a id="abouttab" href="about.html">About</a>
+            <a id="resumetab" href="Assets/resume.pdf">Resume</a>
+        </nav>
+    </header>
+
+    <!-- about me body -->
+    <div class="container">
+        <!-- about me picture -->
+        <img class="col-sm-3" src="Assets/Images/Angela.jpg" alt="Angela">
+        <!-- about me text -->
+        <div class="col-sm-9">
+            <p class="headingtext">Hi, I'm Angela -</p>
+            <p class="descriptiontext">I'm currently a junior at Carnegie Mellon University double majoring in Business Administration (with a concentration in Business Analytics) and Human-Computer Interaction. Career wise, I'm interested in combining data analytics, design, and technology to create and deliver meaningful products or services. As an analytical problem-solver and innovative thinker, I hope to discover, implement, and market new business opportunities in the technology space.</p>
+            <p class="descriptiontext">Outside of school, I enjoy traveling, exploring cafes and restaurants, and baking. Not only do I love traveling and immersing myself in new cultures and scenery, I also enjoy planning iteneries. I've had the amazing opportunity to travel to many different places ever since I was a young kid, and am looking forward to unraveling more parts of the world! Check out all of the different places I've been to below!</p>
+        </div>
+    </div>
+
+    <!-- google map api -->
+    <div id="googlemap"></div>
+    <!-- script that loads the Google Map API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYEcQ1VrSBBbsLidVVXiG8m6n8P1fZrJ8&callback=myMap"></script>
+
+</body>
+
+</html>
